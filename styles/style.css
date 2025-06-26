@@ -682,7 +682,7 @@ color: var(--color-terciario);
 }
 
 @media (max-width: 1225px) {
-    .solution-items, .features, .testimonial-grid{
+    .solution-items, .features, .testimonial-grid, .footer-container{
         grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     } 
     
