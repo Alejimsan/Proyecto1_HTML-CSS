@@ -684,6 +684,12 @@ color: var(--color-terciario);
 @media (max-width: 1225px) {
     .solution-items, .features, .testimonial-grid, .footer-container{
         grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-    } 
+    }
+    .hero-content h1, .hero-content p{
+        display: block;
+        max-width: 100%;
+        text-align: center;
+        padding: 40px 15% 40px 15%;
+    }
     
 }
