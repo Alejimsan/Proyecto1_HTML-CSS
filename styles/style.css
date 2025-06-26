@@ -615,7 +615,7 @@ color: var(--color-terciario);
         background-color: var(--color-quintario);
         padding: 0;
     }
-        .productos_toggle{
+    .productos_toggle{
         padding-bottom: 10px;
     }
 
@@ -635,9 +635,15 @@ color: var(--color-terciario);
         width: 50px;
     }
 
-    .about-text h2 {
+    .about-text h2, .about-text p, .testimonial-quote, .testimonial-author-info{
         text-align: center;
     }
+
+    .testimonial-author-info{
+        display: block;
+    }
+
+
 
     .footer-container {
         text-align: center;
@@ -652,6 +658,10 @@ color: var(--color-terciario);
 
     section img {
     padding: 0px;
+    }
+
+    .buttons a{
+        font-size: 0.8rem;
     }
 
     .map-placeholder iframe {
