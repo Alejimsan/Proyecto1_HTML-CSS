@@ -680,3 +680,10 @@ color: var(--color-terciario);
     gap: 3px;
     }
 }
+
+@media (max-width: 1225px) {
+    .solution-items, .features, .testimonial-grid{
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    } 
+    
+}
