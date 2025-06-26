@@ -162,20 +162,20 @@ section#hero{
     gap: 20px;
 }
 
-.buttons button{
+.buttons a{
     border-radius: 30px;
     padding: 15px 25px;
     border: none;
 }
 
-.buttons > button:first-child {
+.buttons > a:first-child {
     background-color: var(--color-secundario);
     color: var(--color-terciario);
     transition: background-color 0.3s ease, transform 0.2s ease;
 
 }
 
-.buttons > button:first-child:hover {
+.buttons > a:first-child:hover {
     background-color: var(--color-sextario);
     transform: translateY(-2px);
     color: var(--color-terciario); 
@@ -183,13 +183,13 @@ section#hero{
     
 
 
-.buttons > button:last-child {
+.buttons > a:last-child {
     background-color: var(--color-terciario);
     color: var(--color-primario);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.buttons > button:last-child:hover {
+.buttons > a:last-child:hover {
 background-color: var(--color-sextario);
 transform: translateY(-2px);
 color: var(--color-terciario); 
